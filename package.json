@@ -1,0 +1,36 @@
+{
+  "name": "react-pong",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "DEBUG=true node server.js",
+    "build": "webpack -p --config webpack.production.js",
+    "build-dev": "webpack -p"
+  },
+  "dependencies": [
+    "autobind-decorator: ^1.3.2",
+    "babel-core: ^5.0.0",
+    "core-decorators: ^0.9.1",
+    "es6-promise: ^3.0.2",
+    "es7-autobinder: ^1.2.3",
+    "lodash: ^3.10.1",
+    "react-dom: ^0.14.0",
+    "react-redux: ^4.0.0",
+    "react-three: ^0.7.5",
+    "react: ^0.14.0",
+    "redux-devtools: ^2.1.5",
+    "redux-thunk: ^1.0.0",
+    "redux: ^3.0.4",
+    "three: ^0.72.0",
+    "whatwg-fetch: ^0.10.1"
+  ],
+  "devDependencies": [
+    "babel-loader: ^5.0.0",
+    "css-loader: ^0.23.0",
+    "cssnext-loader: ^1.0.1",
+    "extract-text-webpack-plugin: ^0.9.1",
+    "react-hot-loader: ^1.3.0",
+    "style-loader: ^0.13.0",
+    "webpack-dev-server: ^1.14.0",
+    "webpack: ^1.12.9"
+  ]
+}
